@@ -7,7 +7,6 @@ class VigenereCipheringMachine {
 
     encrypt(str, key) {
         if(str === undefined || key === undefined) throw 'Not implemented';
-        console.log(str + ' - ' + key);
         str = str.toUpperCase();
         key = key.toUpperCase();
         let iStr;
