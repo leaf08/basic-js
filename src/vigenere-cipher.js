@@ -29,7 +29,7 @@ class VigenereCipheringMachine {
             }
         }
         if(this.direct === false) {
-            for(let i = result.length; i > -1; i--) {
+            for(let i = result.length-1; i > -1; i--) {
                 resultReverse += result[i];
             }
             return resultReverse;
@@ -61,7 +61,7 @@ class VigenereCipheringMachine {
             }
         }
         if(this.direct === false) {
-            for(let i = result.length; i > -1; i--) {
+            for(let i = result.length-1; i > -1; i--) {
                 resultReverse += result[i];
             }
             return resultReverse;
